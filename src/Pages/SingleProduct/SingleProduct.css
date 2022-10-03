@@ -1,0 +1,137 @@
+.singleProduct{
+    width: 100%;
+    padding: 0px 20px;
+    margin: 3rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.singleProduct .singleproduct_img{
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.singleProduct .singleproduct_img img{
+    width: 80%;
+}
+
+/* singleproduct img */
+
+.singleProduct .singleproduct_info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.singleProduct .singleproduct_info .singleproduct_title{
+    font-size: 2rem;
+}
+
+.singleProduct .singleproduct_info h6{
+    font-size: 2rem;
+}
+
+.singleprodcut_selects{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.singleprodcut_select{
+    display: flex;
+}
+
+.singleprodcut_select .singleproduct_colors{
+    display: flex;
+}
+
+.singleprodcut_select .singleproduct_colors option{
+    background-color: red;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.singleProduct_cart{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.singleProduct_cart .singleproduct_numbers span{
+    color: teal;
+    width: 30px;
+    height: 30px;
+    border: 1px solid teal;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+
+}
+
+.singleProduct_cart .product_Cart button{
+    background-color: white;
+    border: 2px solid teal;
+    padding: 5px 10px;
+    color: #2c3e50;
+}
+
+@media screen and (max-width:1120px){
+    .singleprodcut_selects{
+        width: 80%;
+    }
+
+    .singleProduct_cart{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .singleProduct{
+        width: 100%;
+        flex-direction: column;
+        padding: 0px 15px;
+    }
+
+    .singleProduct .singleproduct_img{
+        width: 100%;
+        padding-right: 0px;
+        text-align: left;
+    }
+    
+    .singleProduct .singleproduct_img img{
+        width: 80%;
+    }
+
+    
+
+    
+}
+
+@media screen and (max-width:500px){
+    .singleprodcut_selects{
+        width: 100%;
+    }
+
+    .singleProduct_cart{
+        width: 100%;
+    }
+
+    .singleProduct .singleproduct_img img{
+        width: 100%;
+     }
+
+     .singleProduct{
+      
+        padding: 0px 10px;
+    }
+
+    
+}

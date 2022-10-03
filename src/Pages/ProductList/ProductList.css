@@ -1,0 +1,11 @@
+@media screen and (max-width:500px){
+    .product_inputs{
+        width: 100%;
+       padding-left:8px !important;
+       padding-right: 8px!important;
+    }
+
+    .product_filter .product_f_select{
+       margin-right: 3px!important;
+    }
+}
